@@ -1,0 +1,64 @@
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cliente-form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.cliente-form input[type="text"],
+.cliente-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Garante que o padding não afete a largura */
+}
+
+.cliente-form button {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.cliente-form button:hover {
+  background-color: #45a049;
+}
+
+.cliente-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.msg-sucesso {
+  color: green;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #e6ffed;
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
+.msg-erro {
+  color: red;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #ffeeee;
+  border: 1px solid red;
+  border-radius: 4px;
+}

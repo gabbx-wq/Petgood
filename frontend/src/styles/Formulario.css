@@ -1,0 +1,144 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.cards-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.form-card {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.9), rgba(236, 72, 153, 0.6));
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 45px 35px;
+    width: 300px;
+    min-height: 380px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-card h2 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.observacao-card label {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: cursive;
+} 
+
+.observacao-card {
+    width: 680px;
+    min-height: 150px;
+    margin-top: 10px;
+}
+
+.observacao-card textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    color: white;
+    padding: 1px 0;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+    resize: none;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.form-group input,
+.form-group select {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    color: white;
+    padding: 8px 0;
+    font-size: 15px;
+    outline: none;
+}
+.form-group select {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    color: white;
+    padding: 8px 0;
+    font-size: 15px;
+    outline: none;
+    appearance: none;
+    width: 100%;
+}
+
+.form-group select option {
+    background: #2d1b4e;
+    color: white;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-bottom-color: white;
+}
+
+.btn-cadastrar {
+    width: 680px;
+    padding: 15px;
+    margin-top: 10px;
+    background: white;
+    color: #a855f7;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-family: cursive;
+}
+
+.btn-cadastrar:hover {
+    transform: scale(1.02);
+}
+
+.observacao-wrapper {
+    position: relative;
+    width: 700px;
+}
+
+.img-coleira {
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-15deg);
+    height: 200px;
+    width: auto;
+    z-index: 1;
+}

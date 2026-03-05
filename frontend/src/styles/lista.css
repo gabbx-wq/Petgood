@@ -1,0 +1,66 @@
+.lista-container {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.8), rgba(236, 72, 153, 0.8));
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    max-width: 1100px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    font-family: cursive;
+}
+
+.lista-container h2 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    color: white;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    text-align: left;
+}
+
+tbody td {
+    color: white;
+    padding: 12px 10px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+tbody tr:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.btn-editar, .btn-deletar {
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.btn-editar {
+    background: white;
+    color: #a855f7;
+}
+
+.btn-deletar {
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border: 1px solid white;
+}
