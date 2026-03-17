@@ -1,6 +1,4 @@
-CREATE DATABASE IF NOT EXISTS petgood;
-
-USE petgood;
+USE railway;
 
 CREATE TABLE racas (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
