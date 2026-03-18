@@ -1,4 +1,4 @@
-# Site PetGood
+# 🐶Site PetGood
 
 O **PetGood** é uma aplicação Full Stack desenvolvida para otimizar o processo de cadastro e acompanhamento de serviços em petshops. A plataforma permite o gerenciamento completo de tutores e seus respectivos pets, integrando informações específicas de cuidados de acordo com a raça animal.
 
