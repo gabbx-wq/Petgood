@@ -11,7 +11,7 @@ app.use(cors({
 }));
 app.use(express.json());
 
-app.get('/racas', async (teq, res) => {
+app.get('/racas', async (req, res) => {
     try {
         const [result] = await db.query("SELECT id, nome, tipo_pelo, cuidados FROM racas");
         res.status(200).json(result);
