@@ -23,7 +23,7 @@
   backdrop-filter: blur(10px);
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: cursive;
+  font-family: "Gill Sans", sans-serif;
 }
 
 .menu-nav button:hover {
